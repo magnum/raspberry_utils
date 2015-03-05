@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# variables
+export SMTP_RECIPIENT="mail@example.com"
+export SMTP_HOST="smtp.server.com"
+export SMTP_PORT="587"
+export SMTP_USERNAME="mail@example.com"
+export SMTP_PASSWORD="password"
+
+# send ip
+python /home/pi/raspberry_utils/startup_mailer.py
